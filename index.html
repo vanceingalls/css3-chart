@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Active User Tracking</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="application">
+    <h3>Active user ratio changes over time</h3>
+    <div id="view-toggle" class="btn-group">
+      <button id="table-view" class="btn active">Table</button>
+      <button id="graph-view" class="btn">Graph</button>
+    </div>
+    <div id="modules">
+      <p id="sub-title" class="lead"></p>
+      <div id="data-table"></div>
+      <div id="data-graph"></div>
+    </div>
+  </div>
+  <script src="chart.js"></script>
+</body>
+</html>
